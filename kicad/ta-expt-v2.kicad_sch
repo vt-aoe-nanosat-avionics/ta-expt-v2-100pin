@@ -5,6 +5,195 @@
 	(uuid "815eb2dc-7b48-46bf-8cb8-29fbf568bc86")
 	(paper "User" 431.8 279.4)
 	(lib_symbols
+		(symbol "BAR43SFILM:BAR43SFILM"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 24.13 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "BAR43SFILM"
+				(at 24.13 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SOT105P242X150-3N"
+				(at 24.13 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000764.pdf"
+				(at 24.13 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "BAR43SFILM, Schottky Diode,  0.1A max, 30V 5ns Dual, 3-Pin, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.5"
+				(at 24.13 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "STMicroelectronics"
+				(at 24.13 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "BAR43SFILM"
+				(at 24.13 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "511-BAR43SFILM"
+				(at 24.13 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/BAR43SFILM?qs=QD4S45kuY2oNwRQsBwsPGQ%3D%3D"
+				(at 24.13 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "BAR43SFILM"
+				(at 24.13 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/bar43sfilm/stmicroelectronics?region=europe"
+				(at 24.13 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "BAR43SFILM_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 22.86 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "K1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 0 180)
+					(length 5.08)
+					(name "A1/K2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector:USB_C_Receptacle_USB2.0"
 			(pin_names
 				(offset 1.016)
@@ -2342,169 +2531,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Diode:BAR42FILM"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "BAR42FILM"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 0 -4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "www.st.com/resource/en/datasheet/bar42.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "30V 0.1A Small signal Schottky diode, SOT-23"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode Schottky"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "BAR42FILM_0_1"
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "BAR42FILM_1_1"
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 1.27 1.27 270)
-					(length 2.54) hide
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7955,12 +7981,6 @@
 		(uuid "048d794b-d638-4530-ba6d-89b6972f1794")
 	)
 	(junction
-		(at 261.62 200.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "076e68ba-e36f-4f5a-9737-c3100f849fad")
-	)
-	(junction
 		(at 173.99 184.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7979,10 +7999,10 @@
 		(uuid "1c73ff80-6607-45c9-bc98-9f2148d47ce0")
 	)
 	(junction
-		(at 100.33 30.48)
+		(at 64.77 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "20f9be1f-0544-4fd8-86d9-766823e02f34")
+		(uuid "1d308d9b-1a97-4f50-b62d-5cd74c605d6f")
 	)
 	(junction
 		(at 181.61 140.97)
@@ -7997,6 +8017,12 @@
 		(uuid "26a8a50b-179d-4052-a001-1e7cd109f822")
 	)
 	(junction
+		(at 261.62 201.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2818f75e-fd4f-4c81-9e6e-5892aa3fff8c")
+	)
+	(junction
 		(at 72.39 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8009,10 +8035,10 @@
 		(uuid "30ac1789-1fb0-49b0-8ea2-c4da6e160e64")
 	)
 	(junction
-		(at 39.37 57.15)
+		(at 100.33 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3e7b1b0a-7324-4adb-93f0-17260a7fe105")
+		(uuid "46f6fabd-3b79-4b27-b5ad-92d71e922247")
 	)
 	(junction
 		(at 165.1 148.59)
@@ -8043,6 +8069,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "504fadcd-dd14-4593-96ed-d57e2d880847")
+	)
+	(junction
+		(at 68.58 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59e7a9f2-ed96-4e5e-9f48-93737f8359a3")
 	)
 	(junction
 		(at 396.24 209.55)
@@ -8121,12 +8153,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bf458906-f039-4fc2-b518-71534033c9ed")
-	)
-	(junction
-		(at 261.62 203.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cbbacf3e-611e-4b84-b181-20b93d60c013")
 	)
 	(junction
 		(at 396.24 212.09)
@@ -8298,6 +8324,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 25.4) (xy 118.11 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01d415ac-15d6-451f-9750-5fcec3ddf5b3")
+	)
+	(wire
+		(pts
 			(xy 100.33 30.48) (xy 99.06 30.48)
 		)
 		(stroke
@@ -8348,6 +8384,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 30.48) (xy 68.58 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07abc76a-10f4-45d7-8cfa-7b17a46e5814")
+	)
+	(wire
+		(pts
 			(xy 396.24 212.09) (xy 403.86 212.09)
 		)
 		(stroke
@@ -8368,13 +8414,13 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 57.15) (xy 48.26 57.15)
+			(xy 64.77 30.48) (xy 68.58 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0e04164f-da67-4971-9695-d2beebddace1")
+		(uuid "0f78a476-ecf4-4ccc-ab89-530d6f558f55")
 	)
 	(wire
 		(pts
@@ -8385,6 +8431,16 @@
 			(type default)
 		)
 		(uuid "0feb36ad-9294-4512-b04f-f272c0f10230")
+	)
+	(wire
+		(pts
+			(xy 102.87 50.8) (xy 105.41 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "121656fc-e891-494c-901c-02b641716114")
 	)
 	(wire
 		(pts
@@ -8426,25 +8482,25 @@
 		)
 		(uuid "189806aa-5f8e-4ab8-bdc1-ff28bf64c494")
 	)
-	(wire
-		(pts
-			(xy 261.62 200.66) (xy 262.89 200.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b9755f4-b352-4a5c-8d26-b14acd8501e8")
-	)
 	(polyline
 		(pts
-			(xy 349.25 184.15) (xy 349.25 234.95)
+			(xy 349.25 151.13) (xy 349.25 234.95)
 		)
 		(stroke
 			(width 0)
 			(type dash)
 		)
 		(uuid "1eb744dd-cb2f-4aca-9264-ccf7861b05f6")
+	)
+	(wire
+		(pts
+			(xy 102.87 22.86) (xy 102.87 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f00f30a-090b-456a-b34f-8e1533200700")
 	)
 	(wire
 		(pts
@@ -8628,6 +8684,16 @@
 	)
 	(wire
 		(pts
+			(xy 269.24 201.93) (xy 261.62 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46387f7d-d50c-407d-bcf4-0e912b8e5968")
+	)
+	(wire
+		(pts
 			(xy 72.39 30.48) (xy 73.66 30.48)
 		)
 		(stroke
@@ -8665,6 +8731,16 @@
 			(type default)
 		)
 		(uuid "4920d95b-a129-4dfc-bf92-63b10c92423b")
+	)
+	(wire
+		(pts
+			(xy 62.23 57.15) (xy 100.33 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c9d8bf4-a7b0-4834-ab2e-3adf2325968f")
 	)
 	(wire
 		(pts
@@ -8798,26 +8874,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 57.15) (xy 100.33 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6728d144-a6b4-44d8-bf36-95eeeb63741c")
-	)
-	(wire
-		(pts
-			(xy 39.37 52.07) (xy 39.37 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67caf064-91a5-4fef-87e9-0419ed7887eb")
-	)
-	(wire
-		(pts
 			(xy 203.2 92.71) (xy 203.2 76.2)
 		)
 		(stroke
@@ -8828,7 +8884,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 74.93) (xy 26.67 69.85)
+			(xy 21.59 74.93) (xy 21.59 69.85)
 		)
 		(stroke
 			(width 0)
@@ -8898,13 +8954,13 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 200.66) (xy 261.62 203.2)
+			(xy 68.58 30.48) (xy 72.39 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7448adf8-54ba-4c84-b456-744fbeb911f6")
+		(uuid "7654a723-cb84-49fa-92fa-a69289576746")
 	)
 	(wire
 		(pts
@@ -8978,7 +9034,7 @@
 	)
 	(polyline
 		(pts
-			(xy 419.1 184.15) (xy 349.25 184.15)
+			(xy 419.1 151.13) (xy 349.25 151.13)
 		)
 		(stroke
 			(width 0)
@@ -9058,6 +9114,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 60.96) (xy 100.33 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e4d2e13-27ec-46d6-8bf2-ab075bfa975b")
+	)
+	(wire
+		(pts
 			(xy 173.99 184.15) (xy 175.26 184.15)
 		)
 		(stroke
@@ -9068,7 +9134,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 30.48) (xy 72.39 30.48)
+			(xy 21.59 30.48) (xy 64.77 30.48)
 		)
 		(stroke
 			(width 0)
@@ -9125,6 +9191,16 @@
 			(type default)
 		)
 		(uuid "9c58d2f7-58bd-4913-a4f4-fabcb9e758ce")
+	)
+	(wire
+		(pts
+			(xy 64.77 48.26) (xy 64.77 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a14233a5-ebcd-4dd1-a719-3b6518a03faa")
 	)
 	(wire
 		(pts
@@ -9225,16 +9301,6 @@
 			(type default)
 		)
 		(uuid "af0de0de-9bd2-48f9-9195-e855a7e1d6c3")
-	)
-	(wire
-		(pts
-			(xy 100.33 57.15) (xy 100.33 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0ef0ed7-44bf-4dd4-be97-c14442bc4863")
 	)
 	(wire
 		(pts
@@ -9368,6 +9434,26 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 54.61) (xy 64.77 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3ced3a4-d631-4b8f-9144-84911aef782c")
+	)
+	(wire
+		(pts
+			(xy 261.62 201.93) (xy 261.62 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c465f19c-8de0-474d-8656-f1bc54532949")
+	)
+	(wire
+		(pts
 			(xy 275.59 128.27) (xy 269.24 128.27)
 		)
 		(stroke
@@ -9486,6 +9572,16 @@
 		)
 		(uuid "d1ec9bca-c713-40e6-b847-45bbd7f3ffe0")
 	)
+	(wire
+		(pts
+			(xy 261.62 194.31) (xy 261.62 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d286f19a-390f-4db7-a4ea-4d5a4580b6c1")
+	)
 	(polyline
 		(pts
 			(xy 355.6 12.7) (xy 355.6 105.41)
@@ -9568,16 +9664,6 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 203.2) (xy 261.62 204.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5f9a4b9-5cc6-4029-8ee8-33a5d71b44f3")
-	)
-	(wire
-		(pts
 			(xy 238.76 59.69) (xy 236.22 59.69)
 		)
 		(stroke
@@ -9625,16 +9711,6 @@
 			(type default)
 		)
 		(uuid "ef260bef-7b95-47d9-a335-4fdcd8982e8f")
-	)
-	(wire
-		(pts
-			(xy 261.62 194.31) (xy 261.62 200.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "efb95a9e-1fab-4290-b98b-cb1f7d9dcb22")
 	)
 	(wire
 		(pts
@@ -9708,13 +9784,23 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 57.15) (xy 39.37 57.15)
+			(xy 21.59 57.15) (xy 34.29 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "feb93168-6a75-4e3f-bd8d-8a5f7174c678")
+	)
+	(wire
+		(pts
+			(xy 99.06 22.86) (xy 102.87 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fef8161d-879a-47c1-81e0-6c8271fd43ed")
 	)
 	(wire
 		(pts
@@ -9737,9 +9823,19 @@
 		)
 		(uuid "2c78186c-aaeb-4a54-870f-d3f45e78645e")
 	)
+	(text "Replace ====>"
+		(exclude_from_sim no)
+		(at 370.078 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bf5d595c-6786-4f77-af2b-5ea615b94d11")
+	)
 	(text "USB-C \nConnection"
 		(exclude_from_sim no)
-		(at 354.33 210.82 0)
+		(at 357.378 179.832 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9781,6 +9877,17 @@
 		)
 		(uuid "07b21685-9c2a-43f1-96f0-b83822ae4f95")
 	)
+	(label "VDD_FILT"
+		(at 199.39 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "07df4132-aa83-44b1-944f-3878ae59e047")
+	)
 	(label "QUADSPI_BK2_IO1"
 		(at 280.67 43.18 180)
 		(fields_autoplaced yes)
@@ -9791,6 +9898,17 @@
 			(justify right bottom)
 		)
 		(uuid "097e9e15-9b2d-43ac-bf80-3e34b271a3f3")
+	)
+	(label "VDD_FILT"
+		(at 269.24 201.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0a60cad4-e229-405b-a04a-5d6d7df5d81a")
 	)
 	(label "USART1_CTS"
 		(at 405.13 38.1 0)
@@ -10034,6 +10152,17 @@
 		)
 		(uuid "440204f1-534c-4161-a7c3-9172ecedcfe2")
 	)
+	(label "VDD_FILT"
+		(at 279.4 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "45853061-e118-4a7f-ba64-6746c3a94739")
+	)
 	(label "LPUART_RX"
 		(at 403.86 91.44 270)
 		(fields_autoplaced yes)
@@ -10055,6 +10184,28 @@
 			(justify left bottom)
 		)
 		(uuid "4b576fe7-f712-4ae3-96ec-5f02b8f0b458")
+	)
+	(label "VDD_FILT"
+		(at 118.11 25.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "50b66309-c3e7-4211-8088-621808a4e910")
+	)
+	(label "V_BAT"
+		(at 193.04 128.27 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5143496f-3441-4c4e-a5bf-7790901f65f1")
 	)
 	(label "QUADSPI_BK2_IO2"
 		(at 280.67 45.72 180)
@@ -10078,6 +10229,17 @@
 		)
 		(uuid "56756162-c4eb-4f59-b148-a6862b8274a0")
 	)
+	(label "Control"
+		(at 123.19 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5c2ae446-783a-4155-a3ad-264fd3c1982d")
+	)
 	(label "LPUART_RTS"
 		(at 275.59 176.53 0)
 		(fields_autoplaced yes)
@@ -10099,6 +10261,17 @@
 			(justify left bottom)
 		)
 		(uuid "621d1c77-7974-4c81-a527-a1130b31d970")
+	)
+	(label "LDO_OUT"
+		(at 21.59 30.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "623025a6-d80e-42e3-806f-6705fd486b17")
 	)
 	(label "VDD_FILT"
 		(at 275.59 120.65 0)
@@ -10177,6 +10350,17 @@
 		)
 		(uuid "76bb90bc-b28e-4409-9ea5-7221f7067f92")
 	)
+	(label "WKUP"
+		(at 100.33 60.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "77632b08-077f-45e3-b9db-f40098f379fe")
+	)
 	(label "DCMI_D7"
 		(at 392.43 72.39 180)
 		(fields_autoplaced yes)
@@ -10198,17 +10382,6 @@
 			(justify right bottom)
 		)
 		(uuid "81fdd9c7-f91a-4471-bc12-cd6b9bddd55d")
-	)
-	(label "VDD_FILT"
-		(at 410.21 156.21 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "83b17fab-5289-47c0-8638-1f22a7d41321")
 	)
 	(label "BOOT0"
 		(at 238.76 59.69 0)
@@ -10254,6 +10427,17 @@
 		)
 		(uuid "90037786-38dc-40ae-a6fe-485b980a490f")
 	)
+	(label "VDD_FILT"
+		(at 217.17 219.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9048b576-ac87-40ae-9ed6-3405c27d1cf0")
+	)
 	(label "USART1_CK"
 		(at 405.13 35.56 0)
 		(fields_autoplaced yes)
@@ -10287,6 +10471,17 @@
 		)
 		(uuid "99323990-8e88-40c4-8fcb-a247a54654b2")
 	)
+	(label "Control"
+		(at 193.04 123.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9ebe326a-cea0-4363-9b74-80e6c57bff5f")
+	)
 	(label "USART1_TX"
 		(at 275.59 133.35 0)
 		(fields_autoplaced yes)
@@ -10308,6 +10503,17 @@
 			(justify right bottom)
 		)
 		(uuid "a3252375-ba81-43a6-a601-aac0691cbe37")
+	)
+	(label "WKUP"
+		(at 193.04 125.73 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a80a69bb-9671-481f-aa68-6868e0653873")
 	)
 	(label "LPUART_RX"
 		(at 254 194.31 270)
@@ -10419,6 +10625,17 @@
 		)
 		(uuid "d3e87a20-e6b5-4b84-801c-1fcaa2a5ac0b")
 	)
+	(label "V_BAT"
+		(at 100.33 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d994a06a-c5e6-4e3b-9438-2ba143766042")
+	)
 	(label "D-"
 		(at 275.59 128.27 0)
 		(fields_autoplaced yes)
@@ -10462,6 +10679,17 @@
 			(justify left bottom)
 		)
 		(uuid "e57fd4c1-bdfe-4142-9813-ddc48f301817")
+	)
+	(label "LDO_OUT"
+		(at 410.21 156.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e9cd692c-f41a-4043-9d47-ef04f792ac06")
 	)
 	(label "LPUART_CTS"
 		(at 275.59 173.99 0)
@@ -10540,6 +10768,17 @@
 		)
 		(uuid "fa4d1905-b072-4028-bce6-f4c280457215")
 	)
+	(label "VDD_FILT"
+		(at 185.42 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fb36958e-cb52-4c3a-ac2e-4233a5b0bbc1")
+	)
 	(label "QUADSPI_BK1_NCS"
 		(at 279.4 40.64 180)
 		(fields_autoplaced yes)
@@ -10553,7 +10792,7 @@
 	)
 	(symbol
 		(lib_id "ta-expt:597D158X9004R2T")
-		(at 26.67 57.15 270)
+		(at 21.59 57.15 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10561,7 +10800,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f0a5ab6")
 		(property "Reference" "C15"
-			(at 19.8882 63.5 0)
+			(at 14.8082 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10569,7 +10808,7 @@
 			)
 		)
 		(property "Value" "597D158X9004R2T"
-			(at 22.1996 63.5 0)
+			(at 17.1196 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10577,26 +10816,6 @@
 			)
 		)
 		(property "Footprint" "ta-expt:CAPPC5660X400N"
-			(at 27.94 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/doc?40047"
-			(at 25.4 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solid Tantalum Chip Capacitors TANTAMOUNT(TM), Ultra-Low ESR, Conformal Coated, Maximum CV"
 			(at 22.86 66.04 0)
 			(effects
 				(font
@@ -10606,7 +10825,7 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "4"
+		(property "Datasheet" "http://www.vishay.com/doc?40047"
 			(at 20.32 66.04 0)
 			(effects
 				(font
@@ -10616,7 +10835,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Vishay"
+		(property "Description" "Solid Tantalum Chip Capacitors TANTAMOUNT(TM), Ultra-Low ESR, Conformal Coated, Maximum CV"
 			(at 17.78 66.04 0)
 			(effects
 				(font
@@ -10626,7 +10845,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "597D158X9004R2T"
+		(property "Height" "4"
 			(at 15.24 66.04 0)
 			(effects
 				(font
@@ -10636,7 +10855,7 @@
 				(hide yes)
 			)
 		)
-		(property "Arrow Part Number" "597D158X9004R2T"
+		(property "Manufacturer_Name" "Vishay"
 			(at 12.7 66.04 0)
 			(effects
 				(font
@@ -10646,7 +10865,7 @@
 				(hide yes)
 			)
 		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/597d158x9004r2t/vishay"
+		(property "Manufacturer_Part_Number" "597D158X9004R2T"
 			(at 10.16 66.04 0)
 			(effects
 				(font
@@ -10656,7 +10875,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "71-597D158X9004R2T"
+		(property "Arrow Part Number" "597D158X9004R2T"
 			(at 7.62 66.04 0)
 			(effects
 				(font
@@ -10666,8 +10885,28 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=71-597D158X9004R2T"
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/597d158x9004r2t/vishay"
 			(at 5.08 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-597D158X9004R2T"
+			(at 2.54 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=71-597D158X9004R2T"
+			(at 0 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10693,7 +10932,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 26.67 74.93 0)
+		(at 21.59 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10701,7 +10940,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f0a81c0")
 		(property "Reference" "#PWR02"
-			(at 26.67 81.28 0)
+			(at 21.59 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10710,7 +10949,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 26.797 79.3242 0)
+			(at 21.717 79.3242 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10718,7 +10957,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 26.67 74.93 0)
+			(at 21.59 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10727,7 +10966,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 26.67 74.93 0)
+			(at 21.59 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10736,7 +10975,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 26.67 74.93 0)
+			(at 21.59 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10781,7 +11020,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ta-expt:SOIC127P790X216-8N"
+		(property "Footprint" "ta-expt-v2-100:SOIC127P790X216-8N"
 			(at 332.74 38.1 0)
 			(effects
 				(font
@@ -10940,7 +11179,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ta-expt:CAPC1608X90N"
+		(property "Footprint" "ta-expt-v2-100:CAPC1608X90N"
 			(at 306.07 19.05 0)
 			(effects
 				(font
@@ -11071,7 +11310,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ta-expt:RESC1608X55N"
+		(property "Footprint" "ta-expt-v2-100:RESC1608X55N"
 			(at 303.53 29.21 0)
 			(effects
 				(font
@@ -11201,7 +11440,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ta-expt:PinSocket_1x16_TartanArtibeus"
+		(property "Footprint" "ta-expt-v2-100:PinSocket_1x16_TartanArtibeus"
 			(at 396.24 86.36 0)
 			(effects
 				(font
@@ -11311,7 +11550,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ta-expt:PinSocket_1x16_TartanArtibeus"
+		(property "Footprint" "ta-expt-v2-100:PinSocket_1x16_TartanArtibeus"
 			(at 400.05 35.56 0)
 			(effects
 				(font
@@ -11485,7 +11724,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ta-expt:PinSocket_6x2_TartanArtibeus"
+		(property "Footprint" "ta-expt-v2-100:PinSocket_6x2_TartanArtibeus"
 			(at 400.05 74.93 0)
 			(effects
 				(font
@@ -11582,7 +11821,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ta-expt:RESC1608X55N"
+		(property "Footprint" "ta-expt-v2-100:RESC1608X55N"
 			(at 45.72 203.2 0)
 			(effects
 				(font
@@ -11712,14 +11951,13 @@
 				)
 			)
 		)
-		(property "Footprint" "ta-expt:RESC1608X55N"
+		(property "Footprint" "ta-expt-v2-100:RESC1608X55N"
 			(at 45.72 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/28705/mcx0x0xpro.pdf"
@@ -12256,7 +12494,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ta-expt:PinSocket_4x1_TartanArtibeus"
+		(property "Footprint" "ta-expt-v2-100:PinSocket_4x1_TartanArtibeus"
 			(at 374.65 58.42 0)
 			(effects
 				(font
@@ -12395,7 +12633,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ta-expt:PinSocket_4x1_TartanArtibeus"
+		(property "Footprint" "ta-expt-v2-100:PinSocket_4x1_TartanArtibeus"
 			(at 370.84 45.72 0)
 			(effects
 				(font
@@ -12535,7 +12773,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ta-expt:BEADC1608X95N"
+		(property "Footprint" "ta-expt-v2-100:BEADC1608X95N"
 			(at 54.61 238.76 0)
 			(effects
 				(font
@@ -12675,7 +12913,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ta-expt:PinSocket_1x5_TartanArtibeus"
+		(property "Footprint" "ta-expt-v2-100:PinSocket_1x5_TartanArtibeus"
 			(at 384.81 27.94 0)
 			(effects
 				(font
@@ -12753,7 +12991,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ta-expt:CAPC1608X90N"
+		(property "Footprint" "ta-expt-v2-100:CAPC1608X90N"
 			(at 39.37 252.73 0)
 			(effects
 				(font
@@ -13014,7 +13252,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ta-expt:PinSocket_1x5_TartanArtibeus"
+		(property "Footprint" "ta-expt-v2-100:PinSocket_1x5_TartanArtibeus"
 			(at 370.84 27.94 0)
 			(effects
 				(font
@@ -13286,7 +13524,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ta-expt:MountingHoles_TartanArtibeus"
+		(property "Footprint" "ta-expt-v2-100:MountingHoles_TartanArtibeus"
 			(at 384.81 44.45 0)
 			(effects
 				(font
@@ -13424,7 +13662,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ta-expt:CAPC1608X90N"
+		(property "Footprint" "ta-expt-v2-100:CAPC1608X90N"
 			(at 167.64 172.72 0)
 			(effects
 				(font
@@ -13567,7 +13805,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ta-expt:CAPC1608X90N"
+		(property "Footprint" "ta-expt-v2-100:CAPC1608X90N"
 			(at 207.01 224.79 0)
 			(effects
 				(font
@@ -13697,7 +13935,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ta-expt:CAPC1608X90N"
+		(property "Footprint" "ta-expt-v2-100:CAPC1608X90N"
 			(at 124.46 109.22 0)
 			(effects
 				(font
@@ -13839,7 +14077,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ta-expt:RESC1608X55N"
+		(property "Footprint" "ta-expt-v2-100:RESC1608X55N"
 			(at 405.892 194.31 90)
 			(effects
 				(font
@@ -14042,7 +14280,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ta-expt:CAPC1608X90N"
+		(property "Footprint" "ta-expt-v2-100:CAPC1608X90N"
 			(at 201.93 71.12 0)
 			(effects
 				(font
@@ -14172,7 +14410,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ta-expt:CAPC1608X90N"
+		(property "Footprint" "ta-expt-v2-100:CAPC1608X90N"
 			(at 156.21 149.86 0)
 			(effects
 				(font
@@ -14345,79 +14583,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:BAR42FILM")
-		(at 39.37 48.26 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "20602c82-bebf-4888-8c94-f68d9b9cbb93")
-		(property "Reference" "D1"
-			(at 41.91 47.3074 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "BAR42FILM"
-			(at 41.91 49.8474 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 43.815 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "www.st.com/resource/en/datasheet/bar42.pdf"
-			(at 39.37 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "30V 0.1A Small signal Schottky diode, SOT-23"
-			(at 39.37 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a63b12fd-a565-4ec7-a43c-b7233170e6a5")
-		)
-		(pin "2"
-			(uuid "b6eea982-92c1-41d8-ac41-9ad017bd0fd4")
-		)
-		(pin "3"
-			(uuid "1c4be3b5-65bb-4846-b538-44489611a3fe")
-		)
-		(instances
-			(project ""
-				(path "/815eb2dc-7b48-46bf-8cb8-29fbf568bc86"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 143.51 130.81 180)
 		(unit 1)
@@ -14576,7 +14741,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC127P600X175-8N"
+		(property "Footprint" "ta-expt-v2-100:SOIC127P600X175-8N"
 			(at 77.47 -64.44 0)
 			(effects
 				(font
@@ -14733,7 +14898,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ta-expt:RESC1608X55N"
+		(property "Footprint" "ta-expt-v2-100:RESC1608X55N"
 			(at 199.39 60.96 0)
 			(effects
 				(font
@@ -15031,6 +15196,149 @@
 			(project "ta-expt-v2"
 				(path "/815eb2dc-7b48-46bf-8cb8-29fbf568bc86"
 					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BAR43SFILM:BAR43SFILM")
+		(at 62.23 57.15 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58914026-3f24-4cfe-8786-5e7ade3a004e")
+		(property "Reference" "IC4"
+			(at 48.26 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAR43SFILM"
+			(at 48.26 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ta-expt-v2-100:SOTFL50P160X78-3N"
+			(at 38.1 -37.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000764.pdf"
+			(at 38.1 -137.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "BAR43SFILM, Schottky Diode,  0.1A max, 30V 5ns Dual, 3-Pin, SOT-23"
+			(at 62.23 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.5"
+			(at 38.1 -337.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "STMicroelectronics"
+			(at 38.1 -437.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BAR43SFILM"
+			(at 38.1 -537.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "511-BAR43SFILM"
+			(at 38.1 -637.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/BAR43SFILM?qs=QD4S45kuY2oNwRQsBwsPGQ%3D%3D"
+			(at 38.1 -737.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "BAR43SFILM"
+			(at 38.1 -837.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/bar43sfilm/stmicroelectronics?region=europe"
+			(at 38.1 -937.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "efc7fe3b-9d44-4ff6-8bbb-645e82e36aac")
+		)
+		(pin "3"
+			(uuid "2143a23f-17ab-472b-b02a-6ad3d07d4777")
+		)
+		(pin "1"
+			(uuid "e35531d4-4398-4341-9f69-c0b436daf9c8")
+		)
+		(instances
+			(project ""
+				(path "/815eb2dc-7b48-46bf-8cb8-29fbf568bc86"
+					(reference "IC4")
 					(unit 1)
 				)
 			)
@@ -15400,7 +15708,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ta-expt:CAPC1608X90N"
+		(property "Footprint" "ta-expt-v2-100:CAPC1608X90N"
 			(at 285.75 114.3 0)
 			(effects
 				(font
@@ -15506,77 +15814,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:BAR42FILM")
-		(at 52.07 57.15 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "70439ea6-c75e-4254-ae1f-40a901590b4e")
-		(property "Reference" "D2"
-			(at 52.3875 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BAR42FILM"
-			(at 52.3875 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 52.07 52.705 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "www.st.com/resource/en/datasheet/bar42.pdf"
-			(at 52.07 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "30V 0.1A Small signal Schottky diode, SOT-23"
-			(at 52.07 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "c65ee464-2626-47e1-9346-90ba8f41ad35")
-		)
-		(pin "2"
-			(uuid "bec8547c-a1ce-4674-b43d-da3d3df296c7")
-		)
-		(pin "1"
-			(uuid "fb0960fc-7cb9-43ed-bc94-b8281a5f1d03")
-		)
-		(instances
-			(project ""
-				(path "/815eb2dc-7b48-46bf-8cb8-29fbf568bc86"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "ta-expt:MCT06030C1001FP500")
 		(at 236.22 59.69 180)
 		(unit 1)
@@ -15601,7 +15838,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ta-expt:RESC1608X55N"
+		(property "Footprint" "ta-expt-v2-100:RESC1608X55N"
 			(at 222.25 60.96 0)
 			(effects
 				(font
@@ -15701,6 +15938,136 @@
 			(project "ta-expt-v2"
 				(path "/815eb2dc-7b48-46bf-8cb8-29fbf568bc86"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ta-expt:MCT06030C1002FP500")
+		(at 64.77 48.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "75cde150-ab6d-49f4-bf14-e608a97ffc99")
+		(property "Reference" "R3"
+			(at 61.722 40.132 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCT06030C1002FP500"
+			(at 52.578 42.672 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ta-expt:RESC1608X55N"
+			(at 63.5 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/28705/mcx0x0xpro.pdf"
+			(at 66.04 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thin Film Resistors - SMD .1W 10Kohms 1% 0603 50ppm Auto"
+			(at 68.58 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.55"
+			(at 71.12 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 73.66 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MCT06030C1002FP500"
+			(at 76.2 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "MCT06030C1002FP500"
+			(at 78.74 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "594-MCT06030C1002FP5"
+			(at 83.82 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Beyschlag/MCT06030C1002FP500?qs=Wvg1umJc15zoHgIjwqoGHw%3D%3D"
+			(at 86.36 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92fa3c79-b5b2-488c-8ee9-42bac922279d")
+		)
+		(pin "2"
+			(uuid "8bdce825-2cb0-4852-aecb-3644bc0ff52d")
+		)
+		(instances
+			(project "ta-expt-v2"
+				(path "/815eb2dc-7b48-46bf-8cb8-29fbf568bc86"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -15995,7 +16362,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ta-expt:ABM8AIG25000MHZ122ZT3"
+		(property "Footprint" "ta-expt-v2-100:ABM8AIG25000MHZ122ZT3"
 			(at 101.6 148.59 0)
 			(effects
 				(font
@@ -16211,7 +16578,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ta-expt:RESC1608X55N"
+		(property "Footprint" "ta-expt-v2-100:RESC1608X55N"
 			(at 412.242 194.31 90)
 			(effects
 				(font
@@ -16413,7 +16780,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ta-expt:CAPC1608X90N"
+		(property "Footprint" "ta-expt-v2-100:CAPC1608X90N"
 			(at 157.48 172.72 0)
 			(effects
 				(font
@@ -17120,7 +17487,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ta-expt:ABS07AIG32768kHz71T"
+		(property "Footprint" "ta-expt-v2-100:ABS07AIG32768kHz71T"
 			(at 143.51 101.6 0)
 			(effects
 				(font
@@ -17320,7 +17687,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ta-expt:CAPC1608X90N"
+		(property "Footprint" "ta-expt-v2-100:CAPC1608X90N"
 			(at 262.89 207.01 0)
 			(effects
 				(font
@@ -17588,7 +17955,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ta-expt:CAPC1608X90N"
+		(property "Footprint" "ta-expt-v2-100:CAPC1608X90N"
 			(at 411.1752 172.72 0)
 			(effects
 				(font
@@ -17720,7 +18087,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ta-expt:CAPC1608X50N"
+		(property "Footprint" "ta-expt-v2-100:CAPC1608X50N"
 			(at 137.16 172.72 0)
 			(effects
 				(font
@@ -17860,7 +18227,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ta-expt:CAPC1608X90N"
+		(property "Footprint" "ta-expt-v2-100:CAPC1608X90N"
 			(at 147.32 172.72 0)
 			(effects
 				(font
@@ -17966,6 +18333,136 @@
 		)
 	)
 	(symbol
+		(lib_id "ta-expt:MCT06030C1002FP500")
+		(at 123.19 50.8 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d5063f1a-e4da-44ff-8eef-5cb4ec3a0f3b")
+		(property "Reference" "R4"
+			(at 106.68 44.704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCT06030C1002FP500"
+			(at 116.332 46.736 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ta-expt-v2-100:RESC1608X55N"
+			(at 109.22 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/28705/mcx0x0xpro.pdf"
+			(at 109.22 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thin Film Resistors - SMD .1W 10Kohms 1% 0603 50ppm Auto"
+			(at 109.22 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.55"
+			(at 109.22 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 109.22 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MCT06030C1002FP500"
+			(at 109.22 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "MCT06030C1002FP500"
+			(at 109.22 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "594-MCT06030C1002FP5"
+			(at 109.22 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Beyschlag/MCT06030C1002FP500?qs=Wvg1umJc15zoHgIjwqoGHw%3D%3D"
+			(at 109.22 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e3f7c6e2-0fbb-49e3-a79b-a9655ee1c2a2")
+		)
+		(pin "2"
+			(uuid "932fb07d-6cd8-47d9-9ae8-6c2470100849")
+		)
+		(instances
+			(project "ta-expt-v2"
+				(path "/815eb2dc-7b48-46bf-8cb8-29fbf568bc86"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 138.43 168.91 180)
 		(unit 1)
@@ -18057,7 +18554,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ta-expt:CAPC1608X90N"
+		(property "Footprint" "ta-expt-v2-100:CAPC1608X90N"
 			(at 388.3152 162.56 0)
 			(effects
 				(font
@@ -18126,7 +18623,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ta-expt:CAPC1608X90N"
+		(property "Footprint" "ta-expt-v2-100:CAPC1608X90N"
 			(at 142.24 134.62 0)
 			(effects
 				(font
@@ -18332,7 +18829,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ta-expt:CAPC1608X90N"
+		(property "Footprint" "ta-expt-v2-100:CAPC1608X90N"
 			(at 154.94 109.22 0)
 			(effects
 				(font
@@ -18474,7 +18971,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ta-expt:CAPC1608X90N"
+		(property "Footprint" "ta-expt-v2-100:CAPC1608X90N"
 			(at 91.44 134.62 0)
 			(effects
 				(font
@@ -18929,7 +19426,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ta-expt:CAPC1608X90N"
+		(property "Footprint" "ta-expt-v2-100:CAPC1608X90N"
 			(at 177.8 142.24 0)
 			(effects
 				(font
